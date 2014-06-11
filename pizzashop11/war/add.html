@@ -10,8 +10,20 @@
         <form method="post" action="/add">
         	<h2>お名前とThe ピザを何枚注文するか入力して下さい。 </h2>
             <tr><th>お名前:</th><td><input type="text" name="name"></td></tr>
-            <tr><th>注文枚数:</th><td><input type="text" name="num"></td></tr>
-
+            <tr><th>注文枚数:</th><td>
+            <select name="num">
+            	<option value="0">0</option>
+            	<option value="1">1</option>
+            	<option value="2">2</option>
+            	<option value="3">3</option>
+            	<option value="4">4</option>
+            	<option value="5">5</option>
+            	<option value="6">6</option>
+            	<option value="7">7</option>
+            	<option value="8">8</option>
+            	<option value="9">9</option>
+            	</select>
+            </td></tr>
             <tr><th></th><td><input type="submit" value="注文"></td></tr>
         </form>
         </table>
